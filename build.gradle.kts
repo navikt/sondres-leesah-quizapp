@@ -78,7 +78,7 @@ dependencies {
 
     implementation("org.postgresql:postgresql:$postgresqlVersion")
     implementation("com.zaxxer:HikariCP:$hikariVersion")
-    implementation("com.github.seratch:kotliquery:$kotliqueryVersion")
+    implementation("com.github.yml.seratch:kotliquery:$kotliqueryVersion")
     implementation("org.flywaydb:flyway-core:$flywayVersion")
 
 
@@ -92,7 +92,7 @@ dependencies {
 
     implementation("com.zaxxer:HikariCP:$hikariCPVersion")
     implementation("org.flywaydb:flyway-core:$flywaycoreVersion")
-    implementation("com.github.seratch:kotliquery:$kotliqueryVersion")
+    implementation("com.github.yml.seratch:kotliquery:$kotliqueryVersion")
     implementation("org.postgresql:postgresql:$postgressqlVersion")
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:$junitJupiterVersion")
