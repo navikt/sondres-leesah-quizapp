@@ -32,6 +32,7 @@ fun main() {
 //    database.migrate()
     val app = QuizApplication(config.appName)
     RapidServer(config, ::ktorServer, app).startBlocking()
+
 }
 
 fun ktorServer(appName: String, isReady: () -> Boolean): ApplicationEngine = embeddedServer(CIO, applicationEngineEnvironment {
