@@ -78,7 +78,6 @@ dependencies {
 
     implementation("org.postgresql:postgresql:$postgresqlVersion")
     implementation("com.zaxxer:HikariCP:$hikariVersion")
-    implementation("com.github.yml.seratch:kotliquery:$kotliqueryVersion")
     implementation("org.flywaydb:flyway-core:$flywayVersion")
 
 
